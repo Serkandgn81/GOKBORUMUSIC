@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "23333095"))
-API_HASH = getenv("API_HASH", "b203edd0bf365571295af5d0b0c05625")
+API_ID = int(getenv("API_ID", "23364338"))
+API_HASH = getenv("API_HASH", "db9141295ecb6bea1bc3b64cb40cab5c")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAGhGJl78uuDhOaEnCrR5-jVokpqZ2a844g")
+BOT_TOKEN = getenv("BOT_TOKEN", "7247334737:AAHtf_EzmHTDqdz7NxuIc8UYLlh0bsHTdBU")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
@@ -22,10 +22,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002182187594"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002238574089"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "5901320319"))
+OWNER_ID = int(getenv("OWNER_ID", "7147517965"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", #ticaret
-    "https://t.me/AcelyaTicaret", 
+    "https://t.me/Sohbetikidebir", 
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuru") #duyuru
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GeceExpress") #gurup
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Gokboruduyuru1") #duyuru
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ikidebiryeniden") #gurup
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -72,7 +72,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "AgFkCOcAmbxHoMS4O1NE-tbRjZ67-U96vN-VjDglR9ZF_b08BsJjE2lutRoz_FBB6bkooqO18xvhCITyiTe9OJAEm6p7vj9YDnQwUad26zf1AMkazJglcFMd8NJn87cHD4qG8llOCfZ7PSKgknLyXuyomDVpAw7POCF7VjaII2ayVd7tE0YBBPDtVW_5NqS1cjd2kbfkzqi1JMUNrJEqP99NS8yfm9zhRvlGdrVmTX6oYapwNHjsoa8iJ-7mDzstwb8x10-mWL-74SbkbYWSkEmf2ZMUQmAvAOUseycTvn652lYePh7F09DFtb1NpZTqSnAT8TmXDkzo8sgv4DyYOCp2Sl1ZmAAAAAHAbA_MAA")
+STRING1 = getenv("STRING_SESSION", "BAFkgvIATqId1-3NHiEG6uYiObNsZ3pS8Rbq5xPNgKw98rvn7FSbXHWEK_EuavtfwLgken3l9c_SJW-4Gi5W4BtpJIG04b6NDOazgPvJOagoKlQjgzAteH5m-ZbpcaBvdTrIU2Bs3eydI6ZYbpeYd9I4fA0xWBTM5lpN8gKXt9oqmjFwfsz43bbCxEnZ7wgpI4eGGK9lcX9lR_9EPI8nndAuF2Rrtv7rcuCCsqAPKA2S5fInfkofei43xUfrPq9usX6yZGssMqPCdLhm9zvt0r7BLChh3YmAUx-UQJabWk2GpPdvRwJM6DwxGqWrWjs6twPDKFJ_1wjHvaHtNNqVoAyZHz2wAAAAHA4SJEAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -91,21 +91,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
+    "START_IMG_URL", "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
+    "PING_IMG_URL", "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
 )
-PLAYLIST_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-STATS_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-TELEGRAM_AUDIO_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-TELEGRAM_VIDEO_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-STREAM_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-SOUNCLOUD_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-YOUTUBE_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-SPOTIFY_ARTIST_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-SPOTIFY_ALBUM_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
-SPOTIFY_PLAYLIST_IMG_URL = "https://camo.githubusercontent.com/916348846b424fc9431b72e7264814f8b24050baf4b71115aff855b1c8f8a43a/68747470733a2f2f74656c656772612e70682f66696c652f3336626538323061383737356630626663373733652e6a7067"
+PLAYLIST_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+STATS_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+STREAM_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+YOUTUBE_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
+SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/9Psr4f7kSgmMAfvg8"
 
 
 def time_to_seconds(time):
